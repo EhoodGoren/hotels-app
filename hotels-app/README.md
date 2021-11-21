@@ -1,0 +1,1 @@
+Hotels App, created using React.
