@@ -6,14 +6,15 @@ export default class HotelPage extends React.Component {
     render() {
         return (
             <div className='hotel-page'>
-                {/* picture */}
-                <ul className='hotel-info'>
-                    <li>{this.props.hotel.name}</li>
-                    <li>{this.props.hotel.street}</li>
-                    <li>{this.props.hotel.house}</li>
-                    <li>{this.props.hotel.phone}</li>
-                </ul>
-                <CallNowButton className='call-btn'/>
+                <div className='page-img'>picture</div>
+                {/* img */}
+                <div className='hotel-info'>
+                    <div>Hotel name: {this.props.hotel.name}</div>
+                    <div>Address: {this.props.hotel.street}</div>
+                    <div>House number: {this.props.hotel.house}</div>
+                    <div>Phone number: {this.props.hotel.phone}</div>
+                </div>
+                <CallNowButton />
             </div>
         )
     }

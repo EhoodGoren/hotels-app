@@ -1,4 +1,3 @@
-
 .hotel-page {
     background-color: #F6EABE;
     width: 80vw;
@@ -6,4 +5,23 @@
     margin-left: 5vw;
     margin-top: 10vh;
     border: 1px solid brown;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, 1fr) 0fr repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+}
+.page-img {
+    grid-area: 2 / 2 / 5 / 10;
+}
+.hotel-info {
+    grid-area: 6 / 2 / 9 / 10;
+    background-color: #C8E3D4;
+    padding-left: 5px;
+    padding-top: 2px;
+    border: 1px groove gray;
+}
+.call-btn {
+    background-color: #87AAAA;
+    grid-area: 9 / 4 / 10 / 8;
 }
