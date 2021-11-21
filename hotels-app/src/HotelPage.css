@@ -7,7 +7,7 @@
     border: 1px solid brown;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(4, 1fr) 0fr repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 5px;
 }
@@ -24,4 +24,7 @@
 .call-btn {
     background-color: #87AAAA;
     grid-area: 9 / 4 / 10 / 8;
+}
+.return-btn {
+    grid-area: 1 / 1 / 2 / 2;
 }
