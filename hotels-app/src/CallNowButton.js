@@ -3,7 +3,7 @@ import React from 'react';
 export default class CallNowButton extends React.Component {
     render() {
         return (
-            <button>Call Hotel</button>
+            <button onClick={() => console.log('Calling...')}>Call Hotel</button>
         )
     }
 }
